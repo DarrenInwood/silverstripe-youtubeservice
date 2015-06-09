@@ -11,7 +11,7 @@
  * 
  * CAUTION: Currently only works on BlogEntry.php pages within the blog module.
  */
-class YoutubeBBCodeParser extends SSHTMLBBCodeParserFilter {
+class YoutubeBBCodeParser extends SSHTMLBBCodeParser_Filter {
 	/**
 	 * The youtubevideo tag
 	 */
