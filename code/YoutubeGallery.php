@@ -95,8 +95,8 @@ class YoutubeGallery extends Page {
 		return $videos;
 	}
 
-	function flushCache() {
-		parent::flushCache();
+	function flushCache($persistent=true) {
+		parent::flushCache($persistent);
 		
 		unset($this->_cachedVideos);
 	}
